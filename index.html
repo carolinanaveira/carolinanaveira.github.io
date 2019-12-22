@@ -1,16 +1,305 @@
+Primeira versão do código, mais completo, primeiro teste
+
 <!DOCTYPE html>
 <html>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <!--fazer aparecer caracteres especiais
-<body> -->
+<html lang="en">
+<head>
+	<!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8">-->
+	<meta charset="utf-8"> <!--fazer aparecer caracteres especiais-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> <!-- vincular bootstrap-->
 
-	<h1 style="text-align:center;"> teste site baja</h1>
+	<title>Equipe UNICAMP Baja SAE</title> <!--título do site-->
+	<link rel="shortcut icon" href="imagens/logobajapreto.png"/>
+
+	<meta name="author" content="Carolina Helena Naveira"/> <!--autor do código-->
+	<meta name="description" content="..."/> <!--descrição do site-->
+	<meta name="keywords" content="baja, sae, FEM, unicamp, Faculdade de Engenharia Mecânica, equipe, extracurricular, coe, automobilismo, offroad, off-road, off road, fora de estrada, mini baja, baja sae, projetos, projeto, pesquisa"/> <!--palavras-chave para pesquisa-->
+
+	<!--<link rel="stylesheet" type="text/css" href="main.css"/> vincular arquivo css-->
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60"> 
+
+	<nav id="mynav" style="overflow-x:hidden;" class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#myPage">
+					<img src="imagens/logobajabranco.png" alt="Logo Baja">
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#sobre">SOBRE</a></li>
+					<li><a href="#membros">MEMBROS</a></li>
+					<li><a href="#projetos">PROJETOS</a></li>
+					<li><a href="#parcerias">PARCERIAS</a></li>
+					<li><a href="#contato">CONTATO</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="container">
+		<img id="background" src="#" title="Equipe UNICAMP Baja SAE" alt="Equipe UNICAMP Baja SAE">
+	</div>
+
+	<!--container sobre-->
+	<div id="sobre" class="container-fluid bg-2">
+		<div class="row text-center">
+			<h2>A Equipe</h2>
+			<br>
+			<div class="col-sm-3 text-center">
+				<span class="glyphicon" id="side">
+					<img class="max-size img-rounded img-responsive" src="#" title="..." style="width: 100%;" alt="...">
+				</span>
+			</div>
+			<div class="col-sm-6">
+				<p class="text-justify margin-sm">...</p> <!--texto sobre a equipe-->
+			</div>
+			<div class="col-sm-3 text-center">
+				<span class="glyphicon" id="side">
+					<img class="max-size img-rounded img-responsive" src="#" title="..." style="width: 100%;" alt="...">
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid bg-1">
+		<div class="row text-center">
+			<h2>Sobre nós</h2>
+			<hr>
+			<div class="col-sm-9">
+				<h4 class="text-justify margin-sm">...</h4><br>
+			</div>
+			<div class="col-sm-3 text-center">
+				<span class="glyphicon" id="side">
+					<img class="max-size img-rounded img-responsive" src="#" title="..." style="width: 100%;" alt="...">
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid bg-1">
+		<div class="row text-center">
+			<div class="col-sm-3 text-center">
+				<span class="glyphicon" id="side">
+					<img class="max-size img-rounded img-responsive" src="#" title="..." style="width: 100%;" alt="...">
+				</span>
+			</div>
+			<div class="col-sm-9">
+				<h4 class="text-justify margin-sm"/>
+					<strong>Conquistas: </strong><br><br>
+				<h4 class="text-justify margin-sm">
+					<b>xxx</b>xxx<br>
+					<b>xxx</b>xxx<br>
+					<b>xxx</b>xxx<br>
+				</h4>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid bg-2">
+		<div class="row text-center">
+			<h2>Nossos valores</h2>
+			<hr>
+			<div class="col-sm-4">
+				<h4 class="text-justify margin-sm"><strong>MISSÃO: </strong>xxx</h4><br>
+			</div>
+			<div class="col-sm-4">
+				<h4 class="text-justify margin-sm"><strong>VISÃO: </strong>xxx</h4><br>
+			</div>
+			<div class="col-sm-4">
+				<span class="margin-sm max-size img-rounded img-responsive" src="#" title="..." style="width: 100%;" alt="...">
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<!--container membros-->
+	<div id="membros" class="container-fluid bg-1">
+		<div class="row text-center">
+			<h2>Membros</h2>
+			<hr>
+			<div class="col-sm-12">
+				<h4 class="text-justify margin-lg">...</h4>
+				<span class="glyphicon margin-lg" id="left">
+					<img class="img-rounded img-responsive" id="fluxograma" src="#" title="..."> <!-- style="width: 100%;" alt="..."-->
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid bg-2">
+		<div class="row">
+			<div class="col-sm-7">
+				<div class="text-center">
+					<h2>Vem pro Baja</h2>
+				</div>
+				<h4 class="text-justify margin-lg">xxx</h4>
+				<p class="text-justify margin-lg">xxx</p>
+				<p class="text-justify margin-lg-inscricao"><b>Status:</b><span style="color:#FF0000">Fechado</span></p>
+				<p class="text-justify margin-lg-inscricao"><b>Instruções:</b> Aguarde o processo seletivo</p>
+
+				<button type="button" class="btn btn-danger btn-large margin-lg" target="_blank" onclick="window.location.href=''" disabled>Inscreva-se</button>
+			</div>
+			<div class="col-sm-5">
+				<span class="glyphicon" id="side">
+					<img class="margin-img img-responsive img-rounded" style="" src="#" alt="faça parte" title="faça parte">
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<!--container projetos-->
+	<div id="projetos" class="container-fluid bg-1">
+		<div class="row">
+			<h2>Projetos</h2>
+			<br>
+			<div class="col-sm-4">
+				<div class="text-center">
+					<span class="glyphicon" id="side">
+						<img class="img-rounded img-responsive" style="max-height: 170px; max-width: 300px;" src="#" title="..." alt="...">
+					</span>
+				</div>
+				<h3 class="text-center">...</h3>
+				<hr>
+				<h4 class="text-justify margin-sm">...</h4><br>
+			</div>
+		</div>
+	</div>
+
+	<!--container parcerias-->
+	<div id="parcerias" class="container-fluid bg-2">
+		<div class="row">
+			<div>
+				<h2>Nossos parceiros</h2>
+				<div class="text-center">
+					<a href="#" target="_blank"><img title="..." alt="..." class="img-responsive" src="#" style="display: inline-block; margin:10px;"></a>
+					<a href="#" target="_blank"><img title="..." alt="..." class="img-responsive" src="#" style="display: inline-block; margin:10px;"></a><br>
+				</div>
+			</div>
+			<div class="text-center">
+				<a href="#" target="_blank"><img title="..." alt="..." class="img-responsive" src="#" style="max-height 150px; max-width: 150px; display: inline-block; margin:10px;"></a>
+				<a href="#" target="_blank"><img title="..." alt="..." class="img-responsive" src="#" style="max-height 150px; max-width: 150px; display: inline-block; margin:10px;"></a>
+				<a href="#" target="_blank"><img title="..." alt="..." class="img-responsive" src="#" style="max-height 150px; max-width: 150px; display: inline-block; margin:10px;"></a><br>
+			</div>
+		</div>
+	</div>
+
+	<!--container contato-->
+	<div id="contato" class="container-fluid bg-1">
+		<div class="row">
+			<h2>Contato</h2>
+			<div class="col-sm-8">
+				<!--Google Maps-->
+				<div id="googleMap" class="size-map"></div>
+				<script>
+					function myMap(){
+						var myCenter = new google.maps.LatLng(-22.8227477,-47.0668862);
+						var mapProp = {
+							center: myCenter,
+							zoom: 16,
+							scrollwheel: false,
+							draggable: false,
+							mapTypeId: google.maps.MapTypeId.ROADMAP
+						};
+						var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+						var marker = new google.maps.Marker({
+							position: myCenter
+						});
+						marker.setMap(map);
+					}
+				</script>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEdkheOcrXwvJpQZml8Af2fe6n1pObYiA&callback=myMap"></script>
+			</div>
+			<div class="col-sm-4">
+				<div>
+					<h4><b>Fale conosco:</b></h4>
+					<h4>bajaunicamp@gmail.com</h4>
+					<hr>
+				</div>
+			</div>
+			<a href="#" target="_blank"><img style="display:inline; margin: 10px;" class="img-responsive" alt="instagram" width="60" height="60" src="#"></a>
+			<a href="#" target="_blank"><img style="display:inline; margin: 10px;" class="img-responsive" alt="facebook" width="60" height="60" src="#"></a>
+			<a href="#" target="_blank"><img style="display:inline; margin: 10px;" class="img-responsive" alt="linkedin" width="60" height="60" src="#"></a>
+		</div>
+	</div>
+
+	<footer class="container-fluid text-center bg-2">
+		<a href="#myPage" title="To Top">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+		</a>
+
+	<!--<h1 style="text-align:center;"> teste site baja</h1>
 	<p style="text-align:center;">agora vai</p>
 
-	<center> <!-- centralizer imagem -->
-		<a href="https://www.instagram.com/bajaunicamp/" target="_blank"> <!-- taget="_blank" faz abrir o link em outra aba -->
+	<center>  centralizer imagem 
+		<a href="https://www.instagram.com/bajaunicamp/" target="_blank"> taget="_blank" faz abrir o link em outra aba 
 			<img src="imagens/inicio.jpg">
 		</a>
-	</center>
+	</center>-->
+
+		<p>&copy; Copyright 2019 - Equipe UNICAMP Baja SAE</p> <!--&copy é comando para o caracter especial de copyright-->
+	</footer>
+
+	<script>
+		$(document).ready(function(){
+			//$("#background").addClass("slide-4");
+
+			var about = $("#sobre").offset().top;
+			var winTop = $(window).scrollTop();
+			if(winTop > about - 50){
+				//$("#mynav").css("background-image", 'url("#")');
+				$("#mynav").css("background-color", 'black');
+			}
+			if(winTop < about - 50){
+				//$("#mynav").css("background-image",'none');
+				$("#mynav").css("background-color", 'transparent');
+			}
+
+			//Add smooth scrolling to all links in navbar + footer link
+			$(".navbar a, footer a[href='#myPage']").on('click', function(event){
+				//Make sure this.hash has a value before overriding default behavior
+				if(this.hash !== ""){
+					//Prevent default anchor click behavior
+					event.preventDefault();
+
+					//Store hash
+					var hash = this.hash;
+
+					//Using jQuery's animate() method to add smooth page scroll
+					//The optional number (900) specifies the numeber of milliseconds it takes to scroll to the scpecified area
+					$('html, body').animate({
+						scrollTop:$(hash).offset().top
+					}, 900, function(){
+
+						//Add hash(#) to URL when done scrolling (default click behavior)
+						window.location.hash = hash;
+					});
+				} //End if
+			}); 
+
+			$(window).scroll(function(){
+				var about = $("#sobre").offset().top;
+				var winTop = $(window).scrollTop();
+
+				if(winTop > about - 50){
+					//$("#mynav").css("background-image", 'url("#")');
+					$("#mynav").css("backgroung-color", 'black');
+				}
+				if(winTop < about - 50){
+					//$("#mynav").css("background-image", 'none');
+					$("#mynav").css("background-color", 'transparent');
+				}
+			});
+		})
+	</script>
 
 </body>
 </html>
